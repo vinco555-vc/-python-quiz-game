@@ -26,13 +26,13 @@ while True:
     break
 
 if calcType == '+':
-    answer = int(num1) + int(num2)
+    answer = float(num1) + float(num2)
 elif calcType == '-':
-    answer = int(num1) - int(num2)
+    answer = float(num1) - float(num2)
 elif calcType == '*':
-    answer = int(num1) * int(num2)
+    answer = float(num1) * float(num2)
 else:
-    answer = int(num1) / int(num2)
+    answer = float(num1) / infloatt(num2)
     
 print(str(num1) + " " + calcType + " " + str(num2) + " = " + str(answer))
 
